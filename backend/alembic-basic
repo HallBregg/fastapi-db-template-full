@@ -1,0 +1,4 @@
+alembic init alembic
+alembic revision --autogenerage -m "First migration"
+alembic upgrade head
+
